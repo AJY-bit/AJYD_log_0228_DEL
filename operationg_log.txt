@@ -1,0 +1,14 @@
+1 linux = centos7_X86 
+  for 1  from 2  how to find "mirror file"?     
+  csdn or ? github   
+go to linux  official website  =   http://mirrors.njupt.edu.cn/centos/7.9.2009/isos/x86_64/ 
+ download  the .iso file  
+
+secureCRT  is used for ssh by charge (not free ) 
+  for 1 from 3  what i need to deal with "ssh "?  
+   NOT NEED NOW          
+
+2 for to do deal with this problems ,download "idm" ,
+
+
+

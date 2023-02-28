@@ -1,0 +1,445 @@
+1  JAVA install   
+ is done 
+2  complete exploiting  apply process  
+ is done 
+3 ensure basement 
+GET 
+
+// 
+
+3 exe apply delopment
+
+4 qt design  
+
+5  gos invoice 
+
+6  how to download in windows virtual machine by command 
+
+ feedback ： need to  install  jdk in system  but python is work 。
+
+AJYD_IDEA_JAVA_DEL\ajyd_project_files_del\AJYD_T3\src\Main.java  
+
+7  windows commands and linux commands  (no apple.s) 
+
+8 multi-threading 
+
+
+
+
+roft in ram and connenct 
+{
+https://www.bilibili.com/video/BV1uK411p7Bp/?spm_id_from=333.337.search-card.all.click&vd_source=b15f2d21b4c7490a01cb9bfce7859fba
+}
+
+
+
+{
+Server software inventory        
+
+Programming environment software facility
+
+Multi-node linux environment
+
+}
+https://www.bilibili.com/video/BV1y4411p74E/?spm_id_from=333.999.0.0&vd_source=b15f2d21b4c7490a01cb9bfce7859fba
+
+{
+haole 
+looly/hutool
+sqshq/piggymetrics 
+hancks/hanlp 
+these four projects will help me to understand  
+}
+
+
+1.按项目名称/仓库名称搜索（不区分大小写）   
+ 命令 in:name xxx
+
+示范：
+
+in:name tensorflow
+
+
+2.按照readme搜索（不区分大小写）
+命令  in:readme
+
+示范: 
+
+in:readme keras
+
+
+
+3.按照描述description搜索（不区分大小写）
+in:description xxx
+
+示范： 
+
+in in:description 安卓
+
+4.筛选stars/forks数量大于x的项目
+示范：
+
+stars:> 1000
+
+forks:> 1000
+
+
+
+5.采用了哪种编程语言
+示范：
+
+language:python
+
+6.最新的更新时间
+pushed:>YYYY-MM-DD
+
+示范：
+
+pushed:>2020-04-16
+
+
+
+A类私有地址范围：
+10.0.0.1～10.255.255.254 ； 子网掩码255.0.0.0（8位）
+—主机数量：256x256x256-2=16777214
+B类私有地址范围：
+172.16.0.1～172.31.255.254  ；子网掩码255.255.0.0（16位）
+—主机数量：256x256-2=65534
+C类私有地址范围：
+192.168.0.1～192.168.255.254  ；子网掩码255.255.255.0（24位）
+—主机数量：256-2=254  
+
+
+4.默认网关
+如果搞清了什么是网关，默认网关也就好理解了。就好像一个房间可以有多扇门一样，一台主机可以有多个网关。默认网关的意思是一台主机如果找不到可用的网关，就把数据包发给默认指定的网关，由这个网关来处理数据包。默认网关一般填写192.168.x.1
+
+
+5.端口
+如果把IP地址比作一间房子 ，端口就是出入这间房子的门。真正的房子只有几个门，但是一个IP地址的端口 可以有65536个之多！端口是通过端口号来标记的，端口号只有整数，范围是从0到65535。
+
+端口有什么用呢？我们知道，一台拥有IP地址的主机可以提供许多服务，比如Web服务、FTP服务、SMTP服务等，这些服务完全可以通过1个IP地址来实现。那么，主机是怎样区分不同的网络服务呢？显然不能只靠IP地址，因为IP 地址与网络服务的关系是一对多的关系。实际上是通过“IP地址+端口号”来区 分不同的服务的。
+
+
+////// WINDOWS///// 
+1.1 cd命令
+//进入d盘
+D:
+//进入F盘
+F:
+
+cd /?     //获取使用帮助
+
+cd \       //跳转到硬盘的根目录
+
+cd C:\WINDOWS  //跳转到当前硬盘的其他文件
+
+d:        //跳转到其他硬盘
+
+cd /d e:\software    //跳转到其他硬盘的其他文件夹，注意此处必须加/d参数。否则无法跳转。
+
+cd..      //跳转到上一层目录
+
+1.2 查看目录文件
+//查看当前目录下的文件，类似于linux下的ls
+dir
+1
+2
+
+
+如果是需要查看隐藏文件的或者更多操作的话，可以使用dir /?来查看其它用法，cmd这点挺好的。
+
+python /?
+1
+
+
+1.3 创建目录和删除目录
+//创建目录
+md 目录名（文件夹）
+//删除目录
+rd 目录名（文件夹）
+1
+2
+3
+4
+1.4 查看本机ip
+ipconfig
+1
+1.5 清除屏幕
+cls
+1
+类似于linux下的clear
+
+1.6 复制文件
+copy 路径\文件名 路径\文件名 ：把一个文件拷贝到另一个地方。 
+1
+1.7 移动文件
+move 路径\文件名 路径\文件名 ：把一个文件移动（就是剪切+复制）到另一个地方。 
+1
+1.8 删除文件
+//这个是专门删除文件的，不能删除文件夹
+del 文件名
+1
+2
+1.9 ping
+//用来测试网络是否畅通
+ping ip(主机名)
+1
+2
+1.10 taskkill
+列出所有任务及进程号，杀进程
+
+taskkill
+
+taskkill /?  获取使用帮助
+1
+2
+3
+taskkill是用来终止进程的。具体的命令规则如下：
+
+TASKKILL [/S system [/U username [/P [password]]]]
+{ [/FI filter] [/PID processid | /IM imagename] } [/F] [/T]
+1
+2
+描述:
+
+这个命令行工具可用来结束至少一个进程。
+
+可以根据进程 id 或映像名（Image）来结束进程。
+
+参数列表:
+
+/S system 指定要连接到的远程系统。
+/U [domain\]user 指定应该在哪个用户上下文
+1
+2
+执行这个命令:
+
+/P [password] 为提供的用户上下文指定密码。如果忽略，提示输入。
+/F 指定要强行终止的进程。
+/FI filter 指定筛选进或筛选出查询的的任务。
+/PID process id 指定要终止的进程的PID。
+/IM image name 指定要终止的进程的映像名称。通配符 '*'可用来指定所有映像名。
+/T Tree kill: 终止指定的进程和任何由此启动的子进程。
+/? 显示帮助/用法。
+
+
+
+1.11 netstat 查看网络连接状态
+显示协议统计信息和当前 TCP/IP 网络连接。该命令可以查看当前机器建立的所有网络链接状态，以及对应哪个进程。
+
+netstat -help 获取命令行使用帮助信息
+
+netstat -ano  //查看网络连接、状态以及对应的进程id
+1
+2
+3
+语法：
+
+netstat [选项]
+1
+参数：
+
+-a或--all：显示所有连线中的Socket；
+-A<网络类型>或--<网络类型>：列出该网络类型连线中的相关地址；
+-c或--continuous：持续列出网络状态；
+-C或--cache：显示路由器配置的快取信息；
+-e或--extend：显示网络其他相关信息；
+-F或--fib：显示FIB；
+-g或--groups：显示多重广播功能群组组员名单；
+-h或--help：在线帮助；
+-i或--interfaces：显示网络界面信息表单；
+-l或--listening：显示监控中的服务器的Socket；
+-M或--masquerade：显示伪装的网络连线；
+-n或--numeric：直接使用ip地址，而不通过域名服务器；
+-N或--netlink或--symbolic：显示网络硬件外围设备的符号连接名称；
+-o或--timers：显示计时器；
+-p或--programs：显示正在使用Socket的程序识别码和程序名称；
+-r或--route：显示Routing Table；
+-s或--statistice：显示网络工作信息统计表；
+-t或--tcp：显示TCP传输协议的连线状况；
+-u或--udp：显示UDP传输协议的连线状况；
+-v或--verbose：显示指令执行过程；
+-V或--version：显示版本信息；
+-w或--raw：显示RAW传输协议的连线状况；
+-x或--unix：此参数的效果和指定"-A unix"参数相同；
+--ip或--inet：此参数的效果和指定"-A inet"参数相同。
+
+1.12 find
+find /？获取使用帮助
+
+netstat -ano|find ".8"   //使用管道符，进行模糊查询
+1
+2
+3
+1.13 tracert
+tracert也被称为Windows路由跟踪实用程序，在命令提示符（cmd）中使用tracert命令可以用于确定IP数据包访问目标时所选择的路径。
+
+  tracert /? 获取使用帮助
+1
+2. 查看cmd下的命令
+1、使用help命令，查看所有的dos命令
+
+使用这个命令之后，我们可以看到所有的dos命令，并且后面还有中文的解释。简直不要太赞，这样我们就可以根据自己的需求要找到想要使用的命令。
+
+2、找到命令之后，使用 命令+ /?来查看该命令下的其他属性
+
+命令 -help    //第1种形式的使用帮助
+
+命令  /?       //第2种形式的使用帮助
+1
+2
+3
+注意：这些字符只能是英文的
+
+3. 辅助符号或命令
+3.1 ‘|’
+“|”cmd命令中|代表前一个的输出代表后一个的输入
+
+查找特定ip的网络连接及进程号：netstat -ano|find "192.168.1.10"
+
+3.2 重定向输出符号> >>
+将原本输出到命令窗口的内容，转存到文件中，如jstack 12912 >d:/s.txt 打印线程到指定文件
+
+cmd > 重定向输出并覆盖源文件。
+
+例如
+
+ echo hello >c:\1.txt  // 1.txt的文件内容先被清空，然后写入hello。
+1
+cmd >>重定向输出追加到文件末尾
+
+例如：
+
+ echo hello >>c:\1.txt  // 在1.txt文件末尾加上hello
+1
+3.3 重定向输入符号< <<
+cmd < file
+1
+使cmd命令从file读入
+
+ cmd << text
+1
+从命令行读取输入，直到一个与text相同的行结束。
+
+除非使用引号把输入括起来，此模式将对输入内容进行shell变量替换。
+
+如果使用 <<- ，则会忽略接下来输入行首的tab，结束行也可以是一堆tab再加上一个与text相同的内容，可以参考后面的例子。
+
+cmd <<< word
+1
+把word（而不是文件word）和后面的换行作为输入提供给cmd。
+
+  cmd <> file
+1
+以读写模式把文件file重定向到输入，文件file不会被破坏。仅当应用程序利用了这一特性时，它才是有意义的。
+
+ cmd >| file
+1
+功能同>，但即便在设置了noclobber时也会覆盖file文件，注意用的是|而非一些书中说的!，目前仅在csh中仍沿用>!实现这一功能。
+
+3.4 终止一直在运行的命令ctrl+c
+有时某个命令一直打印输出结果(如ping 192.168.1.10 -t)，我们想终止这个命令的执行，直接按ctrl+c即可。
+
+3.5 清空cmd窗口内容命令cls
+有时cmd内容太多，滚动费尽，需要清空屏幕内容，直接输入cls即可
+
+cmd命令中，按键盘的向上箭头可以直接复制前一个命令
+
+
+
+1、查看目录与文件：ls
+ls -la：显示当前目录下所有文件的详细信息
+2、切换目录：cd
+cd /home 进入 ‘/ home’ 目录
+cd … 返回上一级目录
+cd …/… 返回上两级目录
+3、显示当前目录：pwd
+pwd
+4、创建空文件：touch
+touch desc.txt：在当前目录下创建文件desc.txt
+5、创建目录：mkdir
+mkdir test：在当前目录下创建test目录
+mkdir -p /opt/test/img：在/opt/test目录下创建目录img，若无test目录，先创建test目录
+6、查看文件内容：cat
+cat desc.txt：查看desc.txt的内容
+7、分页查看文件内容：more
+more desc.txt：分页查看desc.txt的内容
+8、查看文件尾内容：tail
+tail -100 desc.txt：查看desc.txt的最后100行内容
+9、拷贝：cp
+cp desc.txt /mnt/：拷贝desc.txt到/mnt目录下
+cp -r test /mnt/：拷贝test目录到/mnt目录下
+10、剪切或改名：
+mv desc.txt /mnt/：剪切文件desc.txt到目录/mnt下
+mv 原名 新名
+11、删除：rm
+rm -rf test：删除test目录，-r递归删除，-f强制删除。危险操作，务必小心，切记！
+12、搜索文件：find
+find /opt -name ‘*.txt’：在opt目录下查找以.txt结尾的文件
+13、显示或配置网络设备：ifconfig
+ifconfig：显示网络设备情况
+14、显示网络相关信息：netstat
+netstat -a：列出所有端口
+netstat -tunlp | grep 端口号：查看进程端口号
+15、显示进程状态：ps
+ps -ef：显示当前所有进程
+ps-ef | grep java：显示当前所有java相关进程
+ps aux：查看进程
+16、查看目录使用情况：du
+du -h /opt/test：查看/opt/test目录的磁盘使用情况
+17、查看磁盘空间使用情况：df
+df -h：查看磁盘空间使用情况
+18、显示系统当前进程信息：top
+top：显示系统当前进程信息
+19、杀死进程：kill
+kill -s 9 27810：杀死进程号为27810的进程，强制终止，系统资源无法回收
+20、压缩和解压：tar
+tar -zcvf test.tar.gz ./test：打包test目录为test.tar.gz文件，-z表示用gzip压缩
+tar -zxvf test.tar.gz：解压test.tar.gz文件
+21、改变文件或目录的拥有者和组：chown
+chown nginx:nginx desc.txt：变更文件desc.txt的拥有者为nginx，用户组为nginx
+chown -R nginx:nginx test：变更test及目录下所有文件的拥有者为nginx，用户组为nginx
+22、改变文件或目录的访问权限：chmod
+chmod u+x test.sh：权限范围：u(拥有者)g(郡组)o(其它用户)， 权限代号：r(读权限/4)w(写权限/2)x(执行权限/1)#给文件拥有者增加test.sh的执行权限
+chmod u+x -R test：给文件拥有者增加test目录及其下所有文件的执行权限
+23、文本编辑：vim
+vim三种模式：命令模式，插入模式，编辑模式。使用ESC或i或：来切换模式。
+命令模式下:q退出 :q!强制退出 :wq!保存退出 :set number显示行号 /java在文档中查找java yy复制 p粘贴
+vim desc.txt：编辑desc.txt文件
+24、关机或重启：shutdown
+shutdown -h now：立刻关机
+shutdown -r -t 60：60秒后重启
+shutdown -r now：重启(1)
+reboot：重启(2)
+25、帮助命令：man
+man ls：查看ls命令的帮助文档
+help
+26、查看IO读写：iotop
+iotop -o：直接查看比较高的磁盘读写程序
+（yum install iotop安装）
+
+27、查看端口号占用情况：lsof -i
+28、查看报告系统运行时长及平均负载：uptime
+29、常用快捷键
+Ctrl + a 光标到开头
+Ctrl + c 中断当前程序
+Ctrl + d 退出当前窗口或当前用户
+Ctrl + e 光标到结尾
+Ctrl + l 清屏 相当与clear
+Ctrl + u 剪切、删除（光标以前的）内容- - Ctrl + k 剪切、删除（光标以后的）内容- - Ctrl + r 查找（最近用过的命令）
+tab 所有路径以及补全命令
+Ctrl+shift+c 命令行复制内容
+Ctrl+shift+v 命令行粘贴内容
+Ctrl + q 取消屏幕锁定
+Ctrl + s 执行屏幕锁定
+30、重要命令
+1、top：查看内存/显示系统当前进程信息
+2、df -h：查看磁盘储存状况
+3、iotop：查看IO读写（yum install iotop安装）
+4、iotop -o：直接查看比较高的磁盘读写程序
+5、netstat -tunlp | grep 端口号：查看端口号占用情况（1）
+6、lsof -i:端口号：查看端口号占用情况（2）
+7、uptime：查看报告系统运行时长及平均负载
+8、ps aux：查看进程
+
+
