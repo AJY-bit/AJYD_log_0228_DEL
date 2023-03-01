@@ -1,1 +1,46 @@
+https://www.mabiji.com/ssh/sshtool.html
+SSH工具客户端软件大全
+2019年5月8日 SSH 4,780 views 0
 
+阿里云：2核2G服务器5M带宽58元/年、2核4G服务器188元、4核8G服务器346元一年、8核16G5M...
+
+腾讯云：2核4G服务器8M带宽70元/年，更多1c2g/2c4g/2c8g/4c8g/8c16g/16c32g...
+
+SSH工具哪个好用？SSH是指安全外壳协议（Secure Shell），是一种加密的网络传输协议，使用SSH工具常用来远程登录系统和远程执行命令行。SSH客户端很多，码笔记分享SSH工具客户端软件大全，包括Windows系统和MAC系统下的SSH客户端软件：
+
+关于SSH密匙可以参考：SSH密钥详解（生成方式、原理及限制），码笔记主要介绍SSH工具客户端大全：
+
+SecureCRT
+SecureCRT最初是Windows系统下的SSH、Telnet客户端和虚拟终端软件，现在SecureCRT已经支持Mac OS和Linux系统。
+SSH工具SecureCRT
+SSH工具SecureCRT
+
+系统支持：Windows、Mac、Linux
+官网：www.vandyke.com/products/securecrt
+XShell
+Xshell是一个强大的安全终端模拟软件，它支持SSH1/SSH2以及Microsoft Windows平台的TELNET协议。Xshell可以在Windows界面下用来访问远端不同系统下的服务器，另外，Xshell还有多种外观配色方案以及样式可供选择。
+SSH客户端XShell
+SSH客户端XShell
+
+Putty
+Putty是免费开源的虚拟终端，Putty支持多种网络协议，包括SCP/SSH/Telnet/rlogin和原始的套接字连接，Putty最初仅支持Windows平台，目前Putty已经支持Linux和Mac OS。
+SSH软件Putty
+SSH软件Putty
+
+系统支持：Windows、Linux、Mac
+官网：www.putty.org
+iTerm2
+Mac系统下的终端利器iTerm2，码笔记目前使用的就是iTerm2。
+MAC下SSH工具iTerm2
+MAC下SSH工具iTerm2
+
+系统支持：Mac
+官网：www.iterm2.com
+FinalShell
+FinalShell是一体化的服务器网络管理软件，不仅是ssh客户端，FinalShell还是功能强大的开发、运维工具，充分满足用户的开发运维需求。
+SSH工具FinalShell
+SSH工具FinalShell
+
+系统支持：Windows、Mac、Linux
+官网：www.hostbuf.com
+SSH工具有很多，除了SecureCRT、XShell、Putty、iTerm2和FinalShell，还有很多SSH客户端，欢迎留言分享好用的SSH工具。
